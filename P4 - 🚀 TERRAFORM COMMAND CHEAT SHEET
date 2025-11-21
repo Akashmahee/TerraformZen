@@ -1,1 +1,16 @@
 # 🟦 1. GENERAL INFORMATION
+
+## 1️⃣ terraform -help
+
+### Detailed Explanation:
+
+Shows all Terraform commands and how to use them.
+Real-life example: Like getting a full menu when you enter a restaurant.
+
+Example:
+```bash
+terraform -help
+```
+
+Result:
+List of all Terraform commands.
