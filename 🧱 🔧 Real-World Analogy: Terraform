@@ -1,0 +1,21 @@
+Imagine building a house.
+
+### Without Terraform (Traditional way)
+
+```bash
+You:
+
+go to the land
+
+buy bricks
+
+mix cement
+
+install windows
+
+lay tiles
+Everything by hand → slow, tiring, mistakes happen.
+
+This is like clicking around the AWS console manually.
+
+```
