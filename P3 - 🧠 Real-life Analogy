@@ -1,0 +1,13 @@
+## Terraform = A Blueprint + A Builder Robot
+
+* You write a blueprint (.tf file)
+
+* The Terraform robot reads it
+
+* It builds EXACTLY what the blueprint says.
+
+* If you delete something in the blueprint → robot destroys it in real life.
+
+### No mercy. Whatever is in code becomes the truth.
+
+### This is called Infrastructure as Code (IaC).
