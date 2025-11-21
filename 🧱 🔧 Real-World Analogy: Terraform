@@ -4,18 +4,14 @@ Imagine building a house.
 
 ```bash
 You:
+* go to the land
+* buy bricks
+* mix cement
+* install windows
+* lay tiles
 
-go to the land
+#### Everything by hand → slow, tiring, mistakes happen.
 
-buy bricks
-
-mix cement
-
-install windows
-
-lay tiles
-Everything by hand → slow, tiring, mistakes happen.
-
-This is like clicking around the AWS console manually.
+#### This is like clicking around the AWS console manually.
 
 ```
