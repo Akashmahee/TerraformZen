@@ -1,13 +1,16 @@
 ## Terraform = A Blueprint + A Builder Robot
+```bash
+* You write a blueprint ## (.tf file)
 
-* You write a blueprint (.tf file)
+* Terraform understands the blueprint
 
-* The Terraform robot reads it
+* Terraform creates/updates/destroys infra to match the blueprint
 
-* It builds EXACTLY what the blueprint says.
+* Terraform records everything in a state file
 
 * If you delete something in the blueprint → robot destroys it in real life.
 
 ### No mercy. Whatever is in code becomes the truth.
 
 ### This is called Infrastructure as Code (IaC).
+```
