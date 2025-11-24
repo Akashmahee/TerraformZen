@@ -118,7 +118,9 @@ Topic:
 
 Terraform Run Tasks (Security/Policy)**
 
-Duration: 2 hrs
+Duration: 
+
+2 hrs
 
 Learn:
 
@@ -156,81 +158,132 @@ tfc/team-workflow.md
 
 Day 68 — 30 Jan 2026
 
-Topic: AWS Organizations + IAM Roles**
-Duration: 2 hrs
+Topic: 
+
+AWS Organizations + IAM Roles**
+
+Duration: 
+
+2 hrs
+
 Learn:
 
-multi-account infra
+ multi-account infra
 
-master account
+ master account
 
-workload accounts
+ workload accounts
 
 Deliverable:
+
 aws-org/structure.md
 
 Day 69 — 31 Jan 2026
 
-Topic: Cross-Account Terraform Assumed Roles**
-Duration: 2 hrs
+Topic: 
+
+Cross-Account Terraform Assumed Roles**
+
+Duration:
+
+2 hrs
+
 Deliverable:
+
 Cross-account role switching using Terraform provider aliasing.
 
 Day 70 — 01 Feb 2026
 
-Topic: Multi-Account Remote State Management**
-Duration: 2 hrs
+Topic: 
+
+Multi-Account Remote State Management**
+
+Duration: 
+
+2 hrs
+
 Deliverable:
+
 One S3 bucket per account + DynamoDB lock setup.
 
 Day 71 — 02 Feb 2026
 
-Topic: Environment Promotion Strategy**
-Duration: 1.5 hrs
+Topic: 
+
+Environment Promotion Strategy**
+
+Duration: 
+
+1.5 hrs
+
 Learn:
+
 How real companies promote infra:
 
 dev → staging → prod
 
 Deliverable:
+
 env/promotion-strategy.md
 
 Day 72 — 03 Feb 2026
 
-Topic: Managing AWS Landing Zone with Terraform**
-Duration: 3 hrs
+Topic: 
+
+Managing AWS Landing Zone with Terraform**
+
+Duration: 
+
+3 hrs
+
 Deliverable:
+
 Full multi-account scaffold.
 
 Day 73 — 04 Feb 2026
 
-Topic: Multi-account Projects using Modules**
-Duration: 2 hrs
+Topic: 
+
+Multi-account Projects using Modules**
+
+Duration: 
+
+2 hrs
+
 Hands-on:
+
 Build:
 
-networking module
+ networking module
 
-security module
+ security module
 
-compute module
+ compute module
 
 Deliverable:
+
 modules/enterprise/
 
 Day 74 — 05 Feb 2026
 
-Topic: Multi-Account Final Lab**
-Duration: 2.5 hrs
+Topic: 
+
+Multi-Account Final Lab**
+
+Duration: 
+
+2.5 hrs
+
 Build:
 
-Parent AWS account
+ Parent AWS account
 
-Child AWS account
+ Child AWS account
 
-Cross-account IAM role
+ Cross-account IAM role
 
-VPC deployed via assumed role
+ VPC deployed via assumed role
 
-Deliverable:
-projects/senior/multi-account/
+ Deliverable:
+
+ projects/senior/multi-account/
