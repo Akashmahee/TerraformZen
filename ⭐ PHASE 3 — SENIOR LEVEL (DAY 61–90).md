@@ -287,3 +287,246 @@ Build:
  Deliverable:
 
  projects/senior/multi-account/
+
+ 🟦 WEEK 12 — Terraform Advanced Design (Day 75–81)
+Day 75 — 06 Feb 2026
+
+Topic: Terraform Code Architecture Patterns**
+Duration: 2 hrs
+Patterns:
+
+monorepo
+
+multi-repo
+
+module monolith
+
+Deliverable:
+architecture/patterns.md
+
+Day 76 — 07 Feb 2026
+
+Topic: DRY Patterns (Don’t Repeat Yourself)**
+Duration: 2 hrs
+Use locals, data sources, functions to reduce duplication.
+
+Deliverable:
+best-practices/dry-examples.tf
+
+Day 77 — 08 Feb 2026
+
+Topic: Data Sources Deep Dive**
+Duration: 2 hrs
+Examples:
+
+fetch existing VPC
+
+fetch AMI
+
+fetch IGW
+
+Deliverable:
+data-sources/examples.tf
+
+Day 78 — 09 Feb 2026
+
+Topic: Event-driven Infra (Terraform + Lambda)**
+Duration: 2.5 hrs
+Deliverable:
+Terraform triggers → notify Slack / Email
+
+Day 79 — 10 Feb 2026
+
+Topic: Complex Module Outputs**
+Duration: 2 hrs
+Deliverable:
+modules/enterprise/outputs.tf
+
+Day 80 — 11 Feb 2026
+
+Topic: Refactoring Legacy Terraform**
+Duration: 2 hrs
+Deliverable:
+Refactor messy code into professional structure.
+
+Day 81 — 12 Feb 2026
+
+Topic: Advanced Project (Part 1)**
+Duration: 3 hrs
+Build:
+
+VPC
+
+3-tier network
+
+ALB
+
+ASG
+Deliverable:
+projects/senior/refactored-arch/
+
+### 🟦 WEEK 13 — CI/CD + Full Production Deployment (Day 82–88)
+
+Day 82 — 13 Feb 2026
+
+Topic: 
+
+Terraform + GitHub Actions CI/CD**
+
+Duration: 
+
+2.5 hrs
+
+Deliverable:
+
+.github/workflows/terraform.yml
+
+Day 83 — 14 Feb 2026
+
+Topic: 
+
+Terraform Plan in Pull Request**
+
+Duration: 
+
+2 hrs
+
+Deliverable:
+
+terraform-plan-output.md
+
+Day 84 — 15 Feb 2026
+
+Topic: 
+
+Auto-Apply for Dev, Manual Approval for Prod**
+
+Duration: 
+
+2 hrs
+
+Deliverable:
+
+Pipeline with approvals.
+
+Day 85 — 16 Feb 2026
+
+Topic: 
+
+Security Scans (Checkov, tfsec)**
+
+Duration: 
+
+1.5 hrs
+
+Deliverable:
+
+security/security-report.md
+
+Day 86 — 17 Feb 2026
+
+Topic: 
+
+Cost Estimation with Infracost**
+
+Duration: 
+
+2 hrs
+
+Deliverable:
+
+cost/estimate-output.md
+
+Day 87 — 18 Feb 2026
+
+Topic: 
+
+Continuous Deployment for Terraform Modules**
+
+Duration: 
+
+2 hrs
+
+Deliverable:
+
+Automated module versioning.
+
+Day 88 — 19 Feb 2026
+
+Topic: 
+
+Senior CI/CD Project**
+
+Duration: 
+
+2.5 hrs
+
+Deliverable:
+
+End-to-end infra pipeline.
+
+🟦 WEEK 14 — FINAL SENIOR PROJECT (Day 89–90)
+
+Day 89 — 20 Feb 2026
+
+Topic: 
+
+Full Production Infrastructure Deployment**
+
+Duration: 
+
+3 hrs
+
+Architecture:
+
+3-tier VPC
+
+Multi-AZ
+
+ALB
+
+ASG
+
+RDS
+
+Redis
+
+CloudFront
+
+S3
+
+IAM roles
+
+Terraform Cloud backend
+
+CI/CD deployment pipeline
+
+Deliverable:
+
+projects/senior/final-prod-infra/
+
+Day 90 — 21 Feb 2026
+
+Topic: 
+
+Senior-Level Exam
+
+Duration: 3 hrs
+
+You must:
+
+design architecture
+
+estimate cost
+
+deploy modules
+
+use CI/CD
+
+submit documentation
+
+Deliverables:
+
+ senior-final/
+ design-diagram.png
+ architecture-explanation.md
