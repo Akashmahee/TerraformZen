@@ -7,15 +7,15 @@
 
 #### Day 1 — 24 Nov 2025
 ```bash
-Topic: 
+# Topic: 
 
 What Terraform Really Is
 
-Duration: 
+# Duration: 
 
 1.5 hrs
 
-Learn:
+# Learn:
 
 What Terraform does
 
@@ -23,41 +23,41 @@ Why IaC matters
 
 State file basics
 
-Deliverable:
+# Deliverable:
 
 P1 - What Terraform really is.md (You already completed it)
 Tools: VS Code, GitHub
 ```
 #### Day 2 — 25 Nov 2025
 ```bash
-Topic:
+# Topic:
 
 Real-life Analogies
 
-Duration: 
+# Duration: 
 1.5 hrs
 
-Learn:
+# Learn:
 
 Terraform = Blueprint + Robot
 
 Terraform = Restaurant ticket
 
-Deliverable:
+# Deliverable:
 
 P2 - Real-world Analogy.md
 (You completed part already)
 ```
 #### Day 3 — 26 Nov 2025
 ```bash
-Topic:
+# Topic:
 
 How Terraform Works
 
-Duration: 
+# Duration: 
 2 hrs
 
-Learn:
+# Learn:
 
 init, plan, apply
 
@@ -65,266 +65,270 @@ state file
 
 providers
 
-Deliverable:
+# Deliverable:
 
 P3 - Terraform Workflow.md
 
-Assignment:
+# Assignment:
 Explain Terraform like you're teaching a 12-year-old.
 ```
 #### Day 4 — 27 Nov 2025
 ```bash
-Topic:
+# Topic:
 
 Terraform Installation
 
-Duration: 
+# Duration: 
+
 1.5 hrs
 
-Learn:
+# Learn:
 
 Install Terraform
 
 Verify setup
 
-Deliverable:
+# Deliverable:
 
 Screenshot of version
 Add to GitHub under folder Setup/installation.md
 ```
 #### Day 5 — 28 Nov 2025
 ```bash
-Topic:
+# Topic:
 
 Terraform Command Sheet
 
-Duration: 
+# Duration: 
+
 2 hrs
 
-Learn:
+# Learn:
 
 28 commands (You already created P4)
 
-Deliverable:
+# Deliverable:
 
 P4 - TERRAFORM COMMAND CHEAT SHEET.md
 Mark your favorite 10 commands.
 ```
 #### Day 6 — 29 Nov 2025
 ```bash
-Topic:
+# Topic:
 
 Providers
 
-Duration: 
+# Duration: 
 2 hrs
 
-Learn:
+# Learn:
 
 provider block
 
 AWS provider
 
-Practice:
+# Practice:
 
 Write your first provider block.
 
-Deliverable:
+# Deliverable:
 
 providers/main.tf
 ```
 #### Day 7 — 30 Nov 2025
 ```bash
-Topic:
+# Topic:
 
 Variables
 
-Duration:
+# Duration:
 
 1.5 hrs
 
-Learn:
+# Learn:
 
 variable types
 
 default values
 
-Practice:
+# Practice:
 Create variables for region + instance_type
 
-Deliverable:
+# Deliverable:
 
 variables/variables.tf
-
-#### 🔵 WEEK 2 — Basic Terraform Projects (Day 8–14)
 ```
+#### 🔵 WEEK 2 — Basic Terraform Projects (Day 8–14)
+
 #### Day 8 — 01 Dec 2025
 ```bash
-Topic:
+# Topic:
 
 Outputs
 
-Duration:
+# Duration:
 
 1.5 hrs
 
-Deliverable:
+# Deliverable:
 
 outputs/output.tf
 ```
 #### Day 9 — 02 Dec 2025
 ```bash
-Topic:
+# Topic:
 
 Terraform EC2 Creation
 
-Duration:
+# Duration:
 
 2 hrs
 
-Practice:
+# Practice:
 
 Create one EC2 instance.
 
-Deliverable:
+# Deliverable:
 
 projects/ec2/main.tf
 ```
 #### Day 10 — 03 Dec 2025
 ```bash
-Topic: 
+# Topic: 
 EC2 with Variables
 
-Duration: 
+# Duration: 
 2 hrs
 
-Deliverable: 
+# Deliverable: 
 projects/ec2-with-vars/
 
 #### Day 11 — 04 Dec 2025
 ```bash
-Topic: 
+# Topic: 
 SSH Key Pair in Terraform
 
-Duration: 
+# Duration: 
 1.5 hrs
 
-Deliverable:
+# Deliverable:
 Create + store key pair in GitIgnore.
 ```
 #### Day 12 — 05 Dec 2025
 ```bash
-Topic: 
+# Topic: 
 S3 Bucket Creation
 
-Duration: 
+# Duration: 
 2 hrs
 
-Deliverable: 
+# Deliverable: 
 projects/s3/main.tf
 ```
 #### Day 13 — 06 Dec 2025
 ```bash
-Topic: 
+# Topic: 
 S3 Versioning + Lifecycle
 
-Duration: 
+# Duration: 
 2 hrs
 
-Deliverable: 
+# Deliverable: 
 projects/s3-advanced/
 ```
 #### Day 14 — 07 Dec 2025
 ```bash
-Topic: 
+# Topic: 
 Beginner Review
 
-Duration: 
+# Duration: 
 1 hr
 
-Deliverable:
+# Deliverable:
 Write summary of all commands covered.
 ```
 #### 🔵 WEEK 3 — Understanding State, Files, Modules (Day 15–21)
 
 #### Day 15 — 08 Dec 2025
 ```bash
-Topic: 
+# Topic: 
 State File Deep Dive
 
-Duration: 
+# Duration: 
 2 hrs
 
-Deliverable:
+# Deliverable:
 state/state-notes.md
 ```
 #### Day 16 — 09 Dec 2025
 ```bash
-Topic: 
+# Topic: 
 Local vs Remote 
 
-Duration: 
+# Duration: 
 2 hrs
 
-Practice:
+# Practice:
 Store state in S3.
 
-Deliverable:
+# Deliverable:
 state/remote-state/main.tf
 ```
 #### Day 17 — 10 Dec 2025
 ```bash
-Topic: 
+# Topic: 
 Locking (DynamoDB)
 
-Duration: 
+# Duration: 
 2 hrs
 
-Deliverable:
+# Deliverable:
 Locking setup notes.
 ```
 #### Day 18 — 11 Dec 2025
 ```bash
-Topic: 
+# Topic: 
 Modules — Beginner
 
-Duration: 
+# Duration: 
 2 hrs
 
-Deliverable: Module folder
+# Deliverable: Module folder
 modules/ec2-module/
 ```
 #### Day 19 — 12 Dec 2025
 ```bash
-Topic: 
+# Topic: 
 Module Inputs / Outputs
 
-Duration: 
+# Duration: 
 2 hrs
 
-Deliverable: 
+# Deliverable: 
 working example
 ```
 #### Day 20 — 13 Dec 2025
 ```bash
-Topic: 
+# Topic: 
 Shared Modules
 
-Duration: 
+# Duration: 
 2 hrs
 
-Deliverable: 
+# Deliverable: 
 modules/shared/
 ```
 #### Day 21 — 14 Dec 2025
 ```bash
-Topic: 
+# Topic: 
+
 Beginner Mini Project
 
-Duration: 
+# Duration: 
+
 2 hrs
 
-Project:
+# Project:
 Create:
 
 EC2
@@ -340,56 +344,56 @@ Using modules.
 ```bash
 VPC basics
 
-Deliverable: 
+# Deliverable: 
 VPC with 1 subnet
 ```
 #### Day 23 — 16 Dec 2025
 ```bash
 IGW + Route Tables
 
-Deliverable:
+# Deliverable:
 internet-ready subnet
 ```
 #### Day 24 — 17 Dec 2025
 ```bash
 Security Groups
 
-Deliverable: 
+# Deliverable: 
 SG allowing 22, 80
 ```
 #### Day 25 — 18 Dec 2025
 ```bash
 Build EC2 inside VPC
 
-Deliverable: 
+# Deliverable: 
 EC2 using your custom VPC
 ```
 #### Day 26 — 19 Dec 2025
 ```bash
 S3 static website hosting
 
-Deliverable: 
+# Deliverable: 
 upload html file
 ```
 #### Day 27 — 20 Dec 2025
 ```bash
 Combine S3 + CloudFront
 
-Deliverable: 
+# Deliverable: 
 CDN working
 ```
 #### Day 28 — 21 Dec 2025
 ```bash
 IAM in Terraform
 
-Deliverable: 
+# Deliverable: 
 user + policy creation
 ```
 #### Day 29 — 22 Dec 2025
 ```bash
 Clean up and destroy
 
-Deliverable: 
+# Deliverable: 
 destroy everything
 ```
 #### Day 30 — 23 Dec 2025
@@ -400,6 +404,6 @@ Write small Terraform explaining
 
 Build EC2 + SG + S3 in 1 hour
 
-Deliverable:
+# Deliverable:
 projects/beginner-final/
 ```
