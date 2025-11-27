@@ -1,16 +1,16 @@
 ### 🟦 WEEK 10 — Terraform Cloud, Teams, & Collaboration (Day 61–67)
 
 ### Day 61 — 23 Jan 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Terraform Cloud Basics
 
-Duration: 
+# Duration: 
 
 2 hrs
 
-Learn:
+# Learn:
 
   Workspaces
 
@@ -18,7 +18,7 @@ Learn:
 
   Remote execution
 
-Hands-on:
+# Hands-on:
 
   Create Terraform Cloud account
 
@@ -26,45 +26,45 @@ Hands-on:
 
   Connect GitHub repo
 
-Deliverable:
+# Deliverable:
 
 tfc/setup-notes.md
-
+```
 ### Day 62 — 24 Jan 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Terraform Cloud Variables & Secrets**
 
-Duration: 
+# Duration: 
 
 2 hrs
 
-Learn:
+# Learn:
 
 Workspace variables
 
 Sensitive variables
 
-Hands-on:
+# Hands-on:
 
 Move AWS access keys to Terraform Cloud variables.
 
-Deliverable:
+# Deliverable:
 
 tfc/variables.md
-
+```
 ### Day 63 — 25 Jan 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Terraform Sentinel (Policy as Code)**
 
-Duration: 
+# Duration: 
 
 2 hrs
 
-Learn:
+# Learn:
 
 restrict instance types
 
@@ -72,101 +72,101 @@ enforce tagging
 
 enforce S3 encryption
 
-Deliverable:
+# Deliverable:
 
 tfc/policy-examples.sentinel
-
-Day 64 — 26 Jan 2026
-
-Topic: 
+```
+### Day 64 — 26 Jan 2026
+```bash
+# Topic: 
 
 Terraform Cloud VCS Integration**
 
-Duration: 
+# Duration: 
 
 2 hrs
 
-Hands-on:
+# Hands-on:
 
 Push commit → auto-plan triggered via Terraform Cloud.
 
-Deliverable:
+# Deliverable:
 
 tfc/vcs-integration.md
-
+```
 ### Day 65 — 27 Jan 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Remote Operations & Access Control**
 
 Duration: 1.5 hrs
 
-Learn:
+# Learn:
 
 access tokens
 
 team permissions
 
-Deliverable:
+# Deliverable:
 
 tfc/teams-roles.md
-
+```
 ### Day 66 — 28 Jan 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Terraform Run Tasks (Security/Policy)**
 
-Duration: 
+# Duration: 
 
 2 hrs
 
-Learn:
+# Learn:
 
-Automate:
+# Automate:
 
  security scans
 
  cost estimates
 
-Deliverable:
+# Deliverable:
 
 tfc/run-tasks-notes.md
-
+```
 ### Day 67 — 29 Jan 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Team Collaboration Scenarios**
 
-Duration: 
+# Duration: 
 
 2 hrs
 
-Exercises:
+# Exercises:
 
 Merge conflicts in .tf
 
 Pull-request-based Terraform deployment
 
-Deliverable:
+# Deliverable:
 
 tfc/team-workflow.md
-
+```
 ### 🟦 WEEK 11 — Multi-Account AWS Architecture (Day 68–74)
 
 ### Day 68 — 30 Jan 2026
-
-Topic: 
+```bash
+# Topic: 
 
 AWS Organizations + IAM Roles**
 
-Duration: 
+# Duration: 
 
 2 hrs
 
-Learn:
+# Learn:
 
  multi-account infra
 
@@ -174,60 +174,60 @@ Learn:
 
  workload accounts
 
-Deliverable:
+# Deliverable:
 
 aws-org/structure.md
-
+```
 ### Day 69 — 31 Jan 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Cross-Account Terraform Assumed Roles**
 
-Duration:
+# Duration:
 
 2 hrs
 
-Deliverable:
+# Deliverable:
 
 Cross-account role switching using Terraform provider aliasing.
-
+```
 ### Day 70 — 01 Feb 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Multi-Account Remote State Management**
 
-Duration: 
+# Duration: 
 
 2 hrs
 
-Deliverable:
+# Deliverable:
 
 One S3 bucket per account + DynamoDB lock setup.
-
+```
 ### Day 71 — 02 Feb 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Environment Promotion Strategy**
 
-Duration: 
+# Duration: 
 
 1.5 hrs
 
-Learn:
+# Learn:
 
 How real companies promote infra:
 
 dev → staging → prod
 
-Deliverable:
+# Deliverable:
 
 env/promotion-strategy.md
-
+```
 ### Day 72 — 03 Feb 2026
-
+```bash
 Topic: 
 
 Managing AWS Landing Zone with Terraform**
@@ -239,20 +239,20 @@ Duration:
 Deliverable:
 
 Full multi-account scaffold.
-
+```
 ### Day 73 — 04 Feb 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Multi-account Projects using Modules**
 
-Duration: 
+# Duration: 
 
 2 hrs
 
-Hands-on:
+# Hands-on:
 
-Build:
+# Build:
 
  networking module
 
@@ -260,21 +260,21 @@ Build:
 
  compute module
 
-Deliverable:
+# Deliverable:
 
 modules/enterprise/
-
+```
 ### Day 74 — 05 Feb 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Multi-Account Final Lab**
 
-Duration: 
+# Duration: 
 
 2.5 hrs
 
-Build:
+# Build:
 
  Parent AWS account
 
@@ -284,16 +284,24 @@ Build:
 
  VPC deployed via assumed role
 
- Deliverable:
+ # Deliverable:
 
  projects/senior/multi-account/
-
+```
 ### 🟦 WEEK 12 — Terraform Advanced Design (Day 75–81)
-### Day 75 — 06 Feb 2026
 
-Topic: Terraform Code Architecture Patterns**
-Duration: 2 hrs
-Patterns:
+### Day 75 — 06 Feb 2026
+```bash
+
+# Topic:
+
+Terraform Code Architecture Patterns**
+
+# Duration:
+
+2 hrs
+
+# Patterns:
 
 monorepo
 
@@ -301,23 +309,36 @@ multi-repo
 
 module monolith
 
-Deliverable:
+# Deliverable:
+
 architecture/patterns.md
-
+```
 ### Day 76 — 07 Feb 2026
+```bash
+# Topic:
 
-Topic: DRY Patterns (Don’t Repeat Yourself)**
-Duration: 2 hrs
+DRY Patterns (Don’t Repeat Yourself)**
+
+# Duration:
+
+2 hrs
+
 Use locals, data sources, functions to reduce duplication.
 
-Deliverable:
+# Deliverable:
+
 best-practices/dry-examples.tf
-
+```
 ### Day 77 — 08 Feb 2026
+```bash
+# Topic:
 
-Topic: Data Sources Deep Dive**
-Duration: 2 hrs
-Examples:
+Data Sources Deep Dive**
+# Duration:
+
+ 2 hrs
+
+# Examples:
 
 fetch existing VPC
 
@@ -325,35 +346,59 @@ fetch AMI
 
 fetch IGW
 
-Deliverable:
+# Deliverable:
 data-sources/examples.tf
-
+```
 ### Day 78 — 09 Feb 2026
+```bash
+# Topic: Event-driven Infra (Terraform + Lambda)**
 
-Topic: Event-driven Infra (Terraform + Lambda)**
-Duration: 2.5 hrs
-Deliverable:
+# Duration: 2.5 hrs
+
+# Deliverable:
+
 Terraform triggers → notify Slack / Email
-
+```
 ### Day 79 — 10 Feb 2026
+```bash
+Topic:
 
-Topic: Complex Module Outputs**
-Duration: 2 hrs
+Complex Module Outputs**
+
+Duration:
+
+2 hrs
+
 Deliverable:
+
 modules/enterprise/outputs.tf
-
+```
 ### Day 80 — 11 Feb 2026
+```bash
 
-Topic: Refactoring Legacy Terraform**
-Duration: 2 hrs
-Deliverable:
+# Topic:
+
+Refactoring Legacy Terraform**
+
+# Duration:
+
+2 hrs
+
+# Deliverable:
+
 Refactor messy code into professional structure.
-
+```
 ### Day 81 — 12 Feb 2026
+```bash
+# Topic:
 
-Topic: Advanced Project (Part 1)**
-Duration: 3 hrs
-Build:
+Advanced Project (Part 1)**
+
+# Duration:
+
+3 hrs
+
+# Build:
 
 VPC
 
@@ -362,122 +407,124 @@ VPC
 ALB
 
 ASG
-Deliverable:
-projects/senior/refactored-arch/
 
+# Deliverable:
+
+projects/senior/refactored-arch/
+```
 ### 🟦 WEEK 13 — CI/CD + Full Production Deployment (Day 82–88)
 
 ### Day 82 — 13 Feb 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Terraform + GitHub Actions CI/CD**
 
-Duration: 
+# Duration: 
 
 2.5 hrs
 
-Deliverable:
+# Deliverable:
 
 .github/workflows/terraform.yml
-
+```
 ### Day 83 — 14 Feb 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Terraform Plan in Pull Request**
 
-Duration: 
+# Duration: 
 
 2 hrs
 
-Deliverable:
+# Deliverable:
 
 terraform-plan-output.md
-
+```
 ### Day 84 — 15 Feb 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Auto-Apply for Dev, Manual Approval for Prod**
 
-Duration: 
+# Duration: 
 
 2 hrs
 
-Deliverable:
+# Deliverable:
 
 Pipeline with approvals.
-
+```
 ### Day 85 — 16 Feb 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Security Scans (Checkov, tfsec)**
 
-Duration: 
+# Duration: 
 
 1.5 hrs
 
-Deliverable:
+# Deliverable:
 
 security/security-report.md
-
+```
 ### Day 86 — 17 Feb 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Cost Estimation with Infracost**
 
-Duration: 
+# Duration: 
 
 2 hrs
 
-Deliverable:
+# Deliverable:
 
 cost/estimate-output.md
-
-Day 87 — 18 Feb 2026
-
-Topic: 
+```
+### Day 87 — 18 Feb 2026
+```bash
+# Topic: 
 
 Continuous Deployment for Terraform Modules**
 
-Duration: 
+# Duration: 
 
 2 hrs
 
-Deliverable:
+# Deliverable:
 
 Automated module versioning.
-
+```
 ### Day 88 — 19 Feb 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Senior CI/CD Project**
 
-Duration: 
+# Duration: 
 
 2.5 hrs
 
-Deliverable:
+# Deliverable:
 
 End-to-end infra pipeline.
-
+```
 ### 🟦 WEEK 14 — FINAL SENIOR PROJECT (Day 89–90)
 
 ### Day 89 — 20 Feb 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Full Production Infrastructure Deployment**
 
-Duration: 
+# Duration: 
 
 3 hrs
 
-Architecture:
+# Architecture:
 
 3-tier VPC
 
@@ -501,19 +548,19 @@ Terraform Cloud backend
 
 CI/CD deployment pipeline
 
-Deliverable:
+# Deliverable:
 
 projects/senior/final-prod-infra/
-
+```
 ### Day 90 — 21 Feb 2026
-
-Topic: 
+```bash
+# Topic: 
 
 Senior-Level Exam
 
 Duration: 3 hrs
 
-You must:
+# You must:
 
 design architecture
 
@@ -525,9 +572,10 @@ use CI/CD
 
 submit documentation
 
-Deliverables:
+# Deliverables:
 
  senior-final/
  design-diagram.png
 
  architecture-explanation.md
+```
