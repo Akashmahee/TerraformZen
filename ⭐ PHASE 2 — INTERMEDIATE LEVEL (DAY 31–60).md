@@ -1,5 +1,5 @@
 ```bash
-#### Goal:
+## Goal:
 
 Master modules
 
@@ -20,7 +20,7 @@ Team workflows
 Everything you learn now moves you from “I know Terraform” to “I can automate infrastructures properly”.
 ```
 
-#🟦 WEEK 5 — Deep Dive into Modules (Day 31–37)
+### 🟦 WEEK 5 — Deep Dive into Modules (Day 31–37)
 
 ### Day 31 — 24 Dec 2025
 
@@ -623,4 +623,5 @@ ALB
 intermediate-final/
 
 You are now ready for Senior-Level Terraform.
+
 ```
