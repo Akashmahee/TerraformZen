@@ -1,6 +1,6 @@
 ### 🟦 WEEK 10 — Terraform Cloud, Teams, & Collaboration (Day 61–67)
 
-Day 61 — 23 Jan 2026
+### Day 61 — 23 Jan 2026
 
 Topic: 
 
@@ -30,7 +30,7 @@ Deliverable:
 
 tfc/setup-notes.md
 
-Day 62 — 24 Jan 2026
+### Day 62 — 24 Jan 2026
 
 Topic: 
 
@@ -54,7 +54,7 @@ Deliverable:
 
 tfc/variables.md
 
-Day 63 — 25 Jan 2026
+### Day 63 — 25 Jan 2026
 
 Topic: 
 
@@ -94,7 +94,7 @@ Deliverable:
 
 tfc/vcs-integration.md
 
-Day 65 — 27 Jan 2026
+### Day 65 — 27 Jan 2026
 
 Topic: 
 
@@ -112,7 +112,7 @@ Deliverable:
 
 tfc/teams-roles.md
 
-Day 66 — 28 Jan 2026
+### Day 66 — 28 Jan 2026
 
 Topic: 
 
@@ -134,7 +134,7 @@ Deliverable:
 
 tfc/run-tasks-notes.md
 
-Day 67 — 29 Jan 2026
+### Day 67 — 29 Jan 2026
 
 Topic: 
 
@@ -156,7 +156,7 @@ tfc/team-workflow.md
 
 ### 🟦 WEEK 11 — Multi-Account AWS Architecture (Day 68–74)
 
-Day 68 — 30 Jan 2026
+### Day 68 — 30 Jan 2026
 
 Topic: 
 
@@ -178,7 +178,7 @@ Deliverable:
 
 aws-org/structure.md
 
-Day 69 — 31 Jan 2026
+### Day 69 — 31 Jan 2026
 
 Topic: 
 
@@ -192,7 +192,7 @@ Deliverable:
 
 Cross-account role switching using Terraform provider aliasing.
 
-Day 70 — 01 Feb 2026
+### Day 70 — 01 Feb 2026
 
 Topic: 
 
@@ -206,7 +206,7 @@ Deliverable:
 
 One S3 bucket per account + DynamoDB lock setup.
 
-Day 71 — 02 Feb 2026
+### Day 71 — 02 Feb 2026
 
 Topic: 
 
@@ -226,7 +226,7 @@ Deliverable:
 
 env/promotion-strategy.md
 
-Day 72 — 03 Feb 2026
+### Day 72 — 03 Feb 2026
 
 Topic: 
 
@@ -240,7 +240,7 @@ Deliverable:
 
 Full multi-account scaffold.
 
-Day 73 — 04 Feb 2026
+### Day 73 — 04 Feb 2026
 
 Topic: 
 
@@ -264,7 +264,7 @@ Deliverable:
 
 modules/enterprise/
 
-Day 74 — 05 Feb 2026
+### Day 74 — 05 Feb 2026
 
 Topic: 
 
@@ -288,8 +288,8 @@ Build:
 
  projects/senior/multi-account/
 
- 🟦 WEEK 12 — Terraform Advanced Design (Day 75–81)
-Day 75 — 06 Feb 2026
+### 🟦 WEEK 12 — Terraform Advanced Design (Day 75–81)
+### Day 75 — 06 Feb 2026
 
 Topic: Terraform Code Architecture Patterns**
 Duration: 2 hrs
@@ -304,7 +304,7 @@ module monolith
 Deliverable:
 architecture/patterns.md
 
-Day 76 — 07 Feb 2026
+### Day 76 — 07 Feb 2026
 
 Topic: DRY Patterns (Don’t Repeat Yourself)**
 Duration: 2 hrs
@@ -313,7 +313,7 @@ Use locals, data sources, functions to reduce duplication.
 Deliverable:
 best-practices/dry-examples.tf
 
-Day 77 — 08 Feb 2026
+### Day 77 — 08 Feb 2026
 
 Topic: Data Sources Deep Dive**
 Duration: 2 hrs
@@ -328,28 +328,28 @@ fetch IGW
 Deliverable:
 data-sources/examples.tf
 
-Day 78 — 09 Feb 2026
+### Day 78 — 09 Feb 2026
 
 Topic: Event-driven Infra (Terraform + Lambda)**
 Duration: 2.5 hrs
 Deliverable:
 Terraform triggers → notify Slack / Email
 
-Day 79 — 10 Feb 2026
+### Day 79 — 10 Feb 2026
 
 Topic: Complex Module Outputs**
 Duration: 2 hrs
 Deliverable:
 modules/enterprise/outputs.tf
 
-Day 80 — 11 Feb 2026
+### Day 80 — 11 Feb 2026
 
 Topic: Refactoring Legacy Terraform**
 Duration: 2 hrs
 Deliverable:
 Refactor messy code into professional structure.
 
-Day 81 — 12 Feb 2026
+### Day 81 — 12 Feb 2026
 
 Topic: Advanced Project (Part 1)**
 Duration: 3 hrs
@@ -367,7 +367,7 @@ projects/senior/refactored-arch/
 
 ### 🟦 WEEK 13 — CI/CD + Full Production Deployment (Day 82–88)
 
-Day 82 — 13 Feb 2026
+### Day 82 — 13 Feb 2026
 
 Topic: 
 
@@ -381,7 +381,7 @@ Deliverable:
 
 .github/workflows/terraform.yml
 
-Day 83 — 14 Feb 2026
+### Day 83 — 14 Feb 2026
 
 Topic: 
 
@@ -395,7 +395,7 @@ Deliverable:
 
 terraform-plan-output.md
 
-Day 84 — 15 Feb 2026
+### Day 84 — 15 Feb 2026
 
 Topic: 
 
@@ -409,7 +409,7 @@ Deliverable:
 
 Pipeline with approvals.
 
-Day 85 — 16 Feb 2026
+### Day 85 — 16 Feb 2026
 
 Topic: 
 
@@ -423,7 +423,7 @@ Deliverable:
 
 security/security-report.md
 
-Day 86 — 17 Feb 2026
+### Day 86 — 17 Feb 2026
 
 Topic: 
 
@@ -451,7 +451,7 @@ Deliverable:
 
 Automated module versioning.
 
-Day 88 — 19 Feb 2026
+### Day 88 — 19 Feb 2026
 
 Topic: 
 
@@ -465,9 +465,9 @@ Deliverable:
 
 End-to-end infra pipeline.
 
-🟦 WEEK 14 — FINAL SENIOR PROJECT (Day 89–90)
+### 🟦 WEEK 14 — FINAL SENIOR PROJECT (Day 89–90)
 
-Day 89 — 20 Feb 2026
+### Day 89 — 20 Feb 2026
 
 Topic: 
 
@@ -505,7 +505,7 @@ Deliverable:
 
 projects/senior/final-prod-infra/
 
-Day 90 — 21 Feb 2026
+### Day 90 — 21 Feb 2026
 
 Topic: 
 
@@ -529,4 +529,5 @@ Deliverables:
 
  senior-final/
  design-diagram.png
+
  architecture-explanation.md
