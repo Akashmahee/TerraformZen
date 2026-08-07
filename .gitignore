@@ -1,0 +1,16 @@
+# Local caching binaries
+.terraform/
+
+# Secret state files (handled inside cloud S3)
+*.tfstate
+*.tfstate.*
+
+# Variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Private Keys
+*.pem
+
+# Environment files
+.env
